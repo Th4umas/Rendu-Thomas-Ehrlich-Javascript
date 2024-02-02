@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Site Thomas</title>
+  </head>
+  <body>
+    <button id="theme">Dark mode</button>
+    <div class="error">
+      <ul>Une erreur est survenue lors de l'envoi du formulaire</ul>
+    </div>
+    <div class="success">
+      <ul>Votre formulaire a bien été envoyé</ul>
+    </div>
+    <form id="formulaire">
+      <div>
+        <label for="pseudo">Pseudo</label>
+        <input type="text" name="prenom" id="prenom" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="radios">Radio 1 :</label>
+        <input type="radio" name="radios" id="radio1" value="radio1" />
+        <label for="radio1">Radio 2 :</label>
+        <input type="radio" name="radios" id="radio2" value="radio2" />
+        <label for="radio2">Radio 3</label>
+      </div>
+      <div>
+        <label for="axe">Mon axe :</label>
+        <select name="axe" id="axe">
+          <option value="">Choisir mon axe</option>
+          <option value="axe1">Axe 1</option>
+          <option value="axe2">Axe 2</option>
+          <option value="axe3">Axe 3</option>
+        </select>
+      </div>
+      <button id="submit">Envoyer</button>
+      <br>
+      <a href="swiper.html">swiper</a>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
