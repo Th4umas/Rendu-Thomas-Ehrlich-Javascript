@@ -1,0 +1,24 @@
+.filters {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+}
+
+.filters li {
+    color: #ffffff;
+    background-color: orangered;
+    padding: 10px 20px;
+    cursor: pointer
+}
+
+.filters li.active {
+    background-color: orange;
+}
+
+.portfolio-elements {
+    padding: 50px 0 !important;
+}
