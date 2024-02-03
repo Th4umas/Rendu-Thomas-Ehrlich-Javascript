@@ -22,6 +22,9 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    color: rgb(255, 200, 0);
+}
 
 .card {
 width: 30%;
@@ -72,15 +75,8 @@ ul{
     color: #ffffff;
     background-color: orangered;
     padding: 10px 20px;
-    cursor: pointer;
 }
 .filters li.active {
-    background-color: orange;
-}
-.filters li.active:hover {
-    background-color: rgb(255, 217, 0);
-}
-.filters li:hover {
     background-color: orange;
 }
 
