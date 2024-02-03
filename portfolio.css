@@ -1,10 +1,54 @@
-.filters {
-    max-width: 1200px;
-    margin: 0 auto;
+.portfolio {
+    padding: 80px 40px;
+    background-color: #F6F8FA;
 }
 
+
+.portfolio-elements {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+width: 30%;
+background-color: #ffffff;
+}
+
+.card-header {
+    padding: 20px 40px;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    color: #222D3B;
+}
+    
+.card-axe {
+    font-size: 14px;
+    color: #87878a;
+    margin-top: 6px;
+}
+ 
+.card img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
 .filters {
-    display: flex;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+    
+.filters ul {
+    display: flex; 
     gap: 20px;
 }
 
@@ -12,9 +56,8 @@
     color: #ffffff;
     background-color: orangered;
     padding: 10px 20px;
-    cursor: pointer
+    cursor: pointer;
 }
-
 .filters li.active {
     background-color: orange;
 }

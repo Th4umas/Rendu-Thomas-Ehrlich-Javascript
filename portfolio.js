@@ -1,3 +1,5 @@
+const lightbox = new SimpleLightbox(".card a")
+
 const options = {
     gutterPixels: 50,
 };

@@ -3,43 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css" />
-    <title>Portfolio</title>
+    <title>Lightbox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css">
+    <linK rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <div class="portfolio-elements">
-        <div class="card-header">
-            <p class="card-title">Motion design</p>
-            <div class="card-axe">Creation & Design</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simplelightbox.min.js"></script>
+    
+    <main class="portfolio">
+
+        <div class="filters">
+            <ul>
+                <li data-filter="all" class="active"> Tous les projets </li> 
+                <li data-filter="cd"> Création & Design </li> 
+                <li data-filter="cdeb"> Com' Digitale </li> 
+                <li data-filter="dw"> Développement web </li> 
+                <li data-filter="3d"> Animation 3D </li> 
+                <li data-filter="jv"> Jeux vidéo </li> 
+            </ul>
         </div>
-        <a href="img/motion.webp">
-            <img src="img/motion.webp" alt="Motion">
-        </a>
-    </div>
 
-    <div class="card filtr-item" data-category="3d">
-        <div class="card-header">
-            <p class="card-title">Showreel</p>
-            <div class="card-axe">Animation 3D</div>
+        <div class="portfolio-elements">
+
+            <div class="card filtr-item" data-category="cd">
+                <div class="card-header">
+                    <p class="card-title">Motion design</p> 
+                    <div class="card-axe">Creation & Design</div> 
+                </div>
+                <a href="cd-js.jpeg" id="crea">
+                    <img src="cd-js.jpeg" alt="Motion">
+                </a>
+            </div>
+        
+            <div class="card filtr-item" data-category="3d">
+                <div class="card-header">
+                    <p class="card-title">Showreel</p>
+                    <div class="card-axe">Animation 3D</div> 
+                </div>
+                <a href="img/showreel.webp">
+                    <img src="img/showreel.webp" alt="Showreel">
+                </a>
+            </div>
+
         </div>
-        <a href="TheFlash.png">
-            <img src="TheFlash.png" alt="Showreel">
-        </a>
-    </div>
-
-    <div class="filters">
-        <ul>
-            <li data-filter="all" class="active">Tous les projets</li>
-            <li data-filter="cd" class="active">Créa Design</li>
-            <li data-filter="cdeb" class="active">Communication digitale</li>
-            <li data-filter="dw" class="active">Développement Web</li>
-            <li data-filter="3d" class="active">Animation 3D</li>
-            <li data-filter="jv" class="active">Jeux Vidéos</li>
-        </ul>
-    </div>
-
-    <a href="index.html">Index</a>
-
-    <script src="portfolio.js"></script>
+    </main>
 </body>
 </html>
