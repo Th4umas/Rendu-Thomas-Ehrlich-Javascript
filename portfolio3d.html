@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css">
+    <linK rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simplelightbox.min.js"></script>
+
+    
+    <header>
+        <h1><a href="index.html">Index</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="swiper.html">Swiper</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main class="portfolio">
+
+        <div class="filters">
+            <ul>
+                <li data-filter="all"><a href="portfolio.html">Tous les projets</a></li> 
+                <li data-filter="cd"><a href="portfoliocd.html">Création Design</a></li> 
+                <li data-filter="cdeb"><a href="portfoliocdeb.html">Communication Digitale</a></li> 
+                <li data-filter="dw"><a href="portfoliocdi.html">Développement Web</a></li> 
+                <li data-filter="3d" class="active"><a href="portfolio3d.html">Animation 3D</a></li> 
+                <li data-filter="jv"><a href="portfoliojv.html">Jeux Vidéos</a></li> 
+            </ul>
+        </div>
+
+        <div class="portfolio-elements">
+
+            <div class="card filtr-item" data-category="3d">
+                <div class="card-header">
+                    <p class="card-title">Showreel</p>
+                    <div class="card-axe">Animation 3D</div> 
+                </div>
+                <a href="TheFlash.png">
+                    <img src="TheFlash.png" alt="Showreel">
+                </a>
+            </div>
+
+        </div>
+    </main>
+    <a href="index.html">Index</a>
+</body>
+</html>
