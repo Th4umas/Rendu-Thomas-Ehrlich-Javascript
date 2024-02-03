@@ -5,9 +5,9 @@
 
 header {
     padding: 40px;
-    text-align: center;
     background-color: orange;
     background-position: center;
+    flex-direction: row;
 }
 
 .portfolio-elements {
@@ -83,3 +83,153 @@ ul{
 .portfolio-elements {
     padding: 50px 0 !important;
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    
+    .swiper-slide {
+        height: 80vh;
+    }
+    
+    .swiper-slide {
+        
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+
+    p.swiper-slide{
+        color: white;
+    }
+    
+    .slide-dw {
+        background-image: url('Fnaf.png');
+        background-size: cover;
+    }
+    
+    .slide-cd {
+        background-image: url('Ocar.png');
+        background-size: cover;
+    }
+    
+    .slide-cdeb {
+        background-image: url('SMEG.png');
+        background-size: cover;
+    }
+        
+    .slide-jv {
+        background-image: url('DD.png');
+        background-size: cover;
+    }
+        
+    .slide-3d {
+        background-image: url('TheFlash.png');
+        background-size: cover;
+    }
+    .subtitle {
+        color: #000000;
+        font-size: 24px;
+        letter-spacing: 3px;
+        background-color: #fff;
+    }
+    
+    .title {
+        font-weight: bold;
+        font-size: 72px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+    }
+    
+    body .swiper-pagination-bullet {
+        width: 18px;
+        height: 18px;
+        background: #fff;
+    }
+    
+    body .swiper-pagination-bullet-active {
+        background: orangered;
+    }
+    
+    body .swiper-button-next,
+    body .swiper-button-prev {
+        color: white;
+    }
+
+
+    body.dark {
+        background-color: black;
+        color: orange;
+      }
+      
+      * {
+        font-family: sans-serif;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        width: 80%;
+        margin: 80px auto;
+      }
+      
+      form {
+        border: 1px solid rgba(153, 153, 153, 0.6);
+      }
+      
+      form > div {
+        margin: 30px 20px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      
+      input {
+        height: 20px;
+        width: 40%;
+        padding: 16px 32px;
+        margin-bottom: 20px;
+      }
+      
+      button {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        padding: 16px 32px;
+        cursor: pointer;
+      }
+      
+      .error {
+        border: 1px solid rgba(212, 42, 0, 1);
+        color: rgb(212, 42, 0);
+        background-color: rgba(212, 42, 0, 0.4);
+        padding: 16px 32px;
+        margin-bottom: 20px;/*
+        display : none;*/
+      }
+      
+      
+      .success{
+          border: 1px solid rgb(81, 150, 2);
+          color: rgb(81, 150, 2);
+          background-color: rgba(113, 212, 0, 0.4);
+          padding: 16px 32px;
+          margin-bottom: 20px;/*
+          display : none;*/
+      }
+      
+      .message-error-visible{
+          display : block;
+      }
+      
