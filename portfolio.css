@@ -1,6 +1,6 @@
 .portfolio {
     padding: 80px 40px;
-    background-color: #F6F8FA;
+    background-color: #ffae7c;
 }
 
 
@@ -19,18 +19,19 @@ background-color: #ffffff;
 
 .card-header {
     padding: 20px 40px;
+    background-color: orange;
 }
 
 .card-title {
     text-transform: capitalize;
     font-size: 24px;
     font-weight: bold;
-    color: #222D3B;
+    color: white;
 }
     
 .card-axe {
     font-size: 14px;
-    color: #87878a;
+    color: white;
     margin-top: 6px;
 }
  
