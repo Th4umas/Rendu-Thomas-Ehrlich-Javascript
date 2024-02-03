@@ -3,6 +3,12 @@
     background-color: #ffae7c;
 }
 
+header {
+    padding: 40px;
+    text-align: center;
+    background-color: orange;
+    background-position: center;
+}
 
 .portfolio-elements {
     max-width: 1200px;
@@ -10,6 +16,11 @@
     display: flex; 
     flex-wrap: wrap;
     gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 .card {
@@ -42,6 +53,10 @@ background-color: #ffffff;
     object-fit: cover;
 }
 
+ul{
+    list-style-type : none;
+    align-content: stretch;
+}
 
 .filters {
     max-width: 1200px; 

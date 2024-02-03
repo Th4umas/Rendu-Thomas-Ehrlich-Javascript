@@ -3,19 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lightbox</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css">
     <linK rel="stylesheet" href="portfolio.css">
 </head>
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/vanilla.filterizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simplelightbox.min.js"></script>
+
+    
+    <header>
+        <h1><a href="index.html">Index</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="swiper.html">Swiper</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
     
     <main class="portfolio">
 
         <div class="filters">
             <ul>
-                <li data-filter="all" class="active"> Tous les projets </li> 
+                <li data-filter="all" class="active"><a href="portfolio.html">Tous les projets</a></li> 
                 <li data-filter="cd"> Création & Design </li> 
                 <li data-filter="cdeb"> Com' Digitale </li> 
                 <li data-filter="dw"> Développement web </li> 
@@ -31,8 +44,8 @@
                     <p class="card-title">Motion design</p> 
                     <div class="card-axe">Creation & Design</div> 
                 </div>
-                <a href="cd-js.jpeg" id="crea">
-                    <img src="cd-js.jpeg" alt="Motion">
+                <a href="Ocar.png" id="crea">
+                    <img src="Ocar.png" alt="Motion">
                 </a>
             </div>
         
@@ -45,6 +58,37 @@
                     <img src="TheFlash.png" alt="Showreel">
                 </a>
             </div>
+            
+            <div class="card filtr-item" data-category="cdi">
+                <div class="card-header">
+                    <p class="card-title">HTML/CSS</p> 
+                    <div class="card-axe">Développement Web</div> 
+                </div>
+                <a href="Fnaf.png" id="crea">
+                    <img src="Fnaf.png" alt="Motion">
+                </a>
+            </div>
+
+            <div class="card filtr-item" data-category="cdeb">
+                <div class="card-header">
+                    <p class="card-title">Plan Marketing</p> 
+                    <div class="card-axe">Communication Digitale</div> 
+                </div>
+                <a href="SMEG.png" id="crea">
+                    <img src="SMEG.png" alt="Motion">
+                </a>
+            </div>
+
+            <div class="card filtr-item" data-category="cdeb">
+                <div class="card-header">
+                    <p class="card-title">Drink Dash</p> 
+                    <div class="card-axe">Jeux Vidéos</div> 
+                </div>
+                <a href="DD.png" id="crea">
+                    <img src="DD.png" alt="Motion">
+                </a>
+            </div>
+
 
         </div>
     </main>
